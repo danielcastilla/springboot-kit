@@ -2,3 +2,8 @@
   jdk:
   - oraclejdk8
   script: mvn -B verify
+  deploy:
+    provider: heroku
+    app: danielcastilla-rest-api
+    api_key:
+      secure: "jogLHz1KxUDAjVhHSVP6d5qwDG4Cgeah/C24ldBVvZ/TUghXIo0bxvkC0UhtqrvOD52AmX2BRJS0WXNKdMwMn8kKa0uiS4qNaL2lQ5JcoqkU4qEnCJuNCMlt1CBPReS1lVzVB42OVBT39PvQIER7AwX8IvKP+hk0hhSac4HSaoOS5reLQXgeEv8sPuitv7KhFDUhAuv91V0YIXpTbQ6eDtaSs3c9/Nj4epPsV9aqG3vgYDTZ97Y8fhkH7bW1MfErtXVW0Au7Lm+v/ssJVcUevz9JznSMz+BsFNImRgHGJGwKXx0EVccv4RhBDIueOQewUwhwbMXSQNOp1QShnh6sRkrjbflOA2QM5YSa13kLAqRmsgg9iGLQQ2rl3sZHH/2y1jKR4spmeMxh0u6XoKvx1uxMSeCC5diFljafFZG7eyVvEkJZYmcQ32gXhUobBgOFmF35bqpWOwxNgPjPBGVm5UFv8SADoc/2ousflgQTsliqmEHnDMtOoRHQTkBcy4u7Zi8aietkKuZlShPjxX31kWBPj0MuwLGKgdWI2lSx7jsBExouwwzZCe+gf0uVeNmKfK+Ncu46hYU979LenM4MiE7YV8rvUCmRLRgX+qpwjYukgLUsApDI7NZk6Kt4YgmZW4pjODM6YS9NsEVn5Ze4eo2tIhxfS94ez3vMUSDUxVM="
