@@ -2,6 +2,7 @@
   jdk:
   - oraclejdk8
   script: mvn -B verify
+  after_success: mvn coveralls:report
   deploy:
     provider: heroku
     app: danielcastilla-rest-api
